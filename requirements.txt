@@ -1,1 +1,5 @@
-
+from flask import Flask, render_template, request
+import openai
+from werkzeug.utils import secure_filename
+import docx
+import os
